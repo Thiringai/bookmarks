@@ -152,11 +152,11 @@ LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 
 
-SOCIAL_AUTH_FACEBOOK_KEY = '2411580205527906'      # App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = '896579de90405946ee1de18885557912'  # App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = ''      # App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = ''  # App Secret
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '191432294220-oun8mv39rg9a5ug06lhfekn7altvhf2q.apps.googleusercontent.com'  # Google Consumer Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '40320SpepLl9gh6MPf5gDlEH'  # Google Consumer Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ''  # Google Consumer Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ''  # Google Consumer Secret
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
